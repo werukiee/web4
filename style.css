@@ -56,13 +56,13 @@ body{
 
 .block_form
 {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    /*margin-left: 15px;
+    margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 50px;*/
+    margin-bottom: 50px;
     order:2;
-    color: white;
+    color: white;*/
     
     --borderWidth: 2px;
     background: #1D1F20;
@@ -88,14 +88,14 @@ body{
 
 .block_tabl
 {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    /*margin-left: 15px;
+    margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
     padding-left:5px;
-    padding-right:5px;*/
-    order:3;
+    padding-right:5px;
+    order:3;*/
     color: white;
 
     --borderWidth: 2px;
@@ -122,10 +122,10 @@ body{
 }
 .block_ss
 {
-    color: white;
+    /*color: white;
     display: flex; 
     flex-direction: column;
-    /*margin-left: 15px;
+    margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
     color: white;*/
@@ -246,9 +246,9 @@ ul{
   }
 
 .menu li {
-    /*margin-top: 20px;*/
+    /*margin-top: 20px;
     width: 100%;
-    flex-direction: column;
+    flex-direction: column;*/
   }
 
 footer {
@@ -257,7 +257,7 @@ footer {
     width: 100%; /* Ширина слоя */
     height: 50px; 
     background: black;
-    order:4;
+    /*order:4;*/
 }
 footer p{
     text-align: center;
@@ -306,16 +306,16 @@ footer p{
     .block_form{
         width: 960px;
         /*margin: 0 auto;
-        margin-bottom: 50px;*/
-        order:3;
+        margin-bottom: 50px;
+        order:3;*/
     }
     .block_tabl{
         width: 960px;
         /*margin: 0 auto;
-        margin-bottom: 50px;*/
-        order:2;
+        margin-bottom: 50px;
+        order:2;*/
     }
     footer {
-        order:4;
+        /*order:4;*/
     }
   }
